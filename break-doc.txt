@@ -1,0 +1,237 @@
+MAIN-FE 
+	UI (376)
+		Mutilanguge : 16
+		Header: 
+			search (2 dropdowns menu & search button) : 6
+			myaccount & favorites button : 4
+			side bar : 4
+		Pages:
+			Main-page:
+				Get Shipping Quote
+					Quote card: 4
+					mixing : 4
+				Supplier list
+					Menu filter : 2
+					Supplier card : 10
+					Supplier grid : 2
+					View more button : 1
+				Contact Forwarding Agents
+					Forwarding Agents Card : 4
+				Footer : 
+					Payment Card : 6
+					panel : 2
+					mail form & title & contact button : 6 
+			Sign-In : 
+				Form : 4
+				Toggle(when complete sign-in with social network) : 2
+				Left form : 4
+			Sign-Up
+				Buyer-Info : 4
+				Supplier-Info 
+					Info : 4
+					Package : 8
+					Payment : Need design for UI (12)
+					Package-Confirm : 2
+					Complete : 2
+			Regions Search : 12
+			Contact-Us
+				Info : 2
+				Form : 6
+				Map : 4
+			Suppliers : 12
+			News : 
+				News-Card : 8
+				Left-Menu : 4
+				Detail : 
+					Image : 2
+					Content : 4
+					Tags : 1
+					Content Navigation : 2
+					Form : 4
+			Privacy policy : 4
+			Product List : 
+				Product-Card : 12
+				Left-Menu : 6
+				Grid & mixing : 4
+				Ad bottom : 4
+			Supplier List : 
+				Filter : 4
+				Supplier-Card : 16
+				Pagging : 4
+				Right-Ad : 4
+			Product Categories : 
+				Left-Menu : 4
+				Left-Contact-Card : 6
+				Product-Grid : 4
+				Product-Card : 6
+				Paging : 2
+			Product Detail : 
+				Header : 4
+				Card : 24
+				Right-News : 12
+				Right-Product-Categories : 2
+				Overview : 12
+				Product Description : 4
+				Submit Form : 6
+				Latest Products : 12
+			Supplier Info : 
+				Left-Menu : 2
+				Company Profile : 8
+				Trade Capacity : 4
+				Company Show : 12
+				Submit Form : 4
+			Supplier Contact : 
+				Contact Detail : 4
+				Submit Form : 4
+			Inquiry Form : 
+				Form : 4
+				Attach File : 4
+			
+	Implement + (Testing) (178)
+		Filter Search : 6 + 4
+		Shipping Quote : 4 + 2
+		Supplier List : 6 + 4
+		View More Supplier : 2
+		Contact Forwarding Agents : 4 + 2
+		Sign-In : 2 + 1
+		Sign-In with Social : 4 + 2
+		Forgot Password : 4 + 2
+		Sign-Up : 
+			Buyer : 
+				Country/Regions : 1
+				Form : 2 + 1
+			Supplier :
+				Country/Regions : 1
+				Form : 2 + 1
+				Payment : 16 + 8
+		News : 4 + 2
+		Product List :
+			Filter Member Type : 4 + 2
+			Location : 2 + 1
+			Related Categories Filter : 4 + 2
+			Product Features : 
+				Min Order : 4 + 2
+				Shipment Type : 4 + 2
+				Transit Time : 4 + 2
+				Destination : 4 + 2
+		Supplier List :
+			Filter : 4 + 2
+			Location : 2 + 1
+			Related Category : 2 + 1
+			Certification : 2 + 1
+			Annual Revenue : 2 + 1
+			Pagging : 2 + 1
+		Product Categories : 4 + 2
+		Product Detail :
+			Quotes : 2 + 1
+			Contact Supplier : 2 + 1 (need for info to other contact types)
+			Download Product Catalog : 2 + 1
+			Local Charge : 1 + 1
+			
+			Latest Products from this Sipplier : 2 + 1
+		Company Profile :
+			Linked to Main Products : 2 + 1
+			Report Certificate : 2 + 1
+		Send message to Supplier :
+			Form : 2
+			Attach File : 2 + 1
+		
+SUPPLIER-DASHBOARD
+	UI (90)
+		Mutilanguge : 8
+		Notifications : 8
+		Info-Card : 4
+		Home :
+			Left Card : 2
+			New Messages : 6
+			Account : 4
+		Message
+			Top content : 2
+			Grid : 6
+		Products :
+			Left Process : 2
+			Grid : 6
+		Account :
+			Manage Personal Info : 4
+			Edit  Personal Info : 6
+			Manage Company Info : 6
+			Edit Company Info :
+				Profile :
+					Form : 6
+					File Upload : 4
+				Company Show :
+					List of Certificates : 12
+					List of COmpany Album : 2
+				Trade Capacity :
+					Form : 4
+					Grid : 4
+	Implement & Testing (54)
+		Home : 
+			Info-Card : 2 + 1
+			Mail & Chat Notifications : 2 + 1
+		Message :
+			Read Message : 4 + 2 (need UI for this)
+			Delete Message : 2 + 1
+			Pagging : 2 + 1
+		Products :
+			Edit Products : 4 + 2
+		Account :
+			Edit Personal Info : 4 + 2
+			Edit Company Info :
+				Company Profile : 6 + 2
+				Company Show : 6 + 2
+				Trade Capacity : 6 + 2
+SUPPLIER-SUBMIT
+	UI (64)
+		Mutilanguge : 8
+		Left Step Menu : 4
+		Right Card: 2
+		Service Template :
+			Form : 6
+			Uploaded Files : 4
+			Upload File : 6
+		Overview Template :
+			Overview Form : 12
+			Local Charge : 6
+			Submit Form : 4
+		Quotation Templates
+			Grid : 6
+		Form : 6
+	Implement & Testing (30)
+		Service :
+			Form : 2 + 1
+			Upload Image : 2 + 1
+		Over View :
+			Info : 8 + 4
+			Local Charge : 4 + 2
+		Quotations :
+			Form 4 + 2
+API + Testing (228)
+	set-up : 8
+	design db : 8
+	Sign-In/Up, Reset password with local strategy : 8 + 4
+	Sign-In/Up, Reset password with social : 8 + 4
+	Chat service : 16 + 4
+	Search service : 16 + 4
+	Up/Download File service : 8 + 4
+	Supplier :
+		Profile : 16 + 4
+		Posts : 16 + 4
+	Buyer :
+		Profile : 16 + 4
+		Posts : 16 + 4
+		Products : 16 + 4
+	Payment : more time for more instance
+		interaction with: 24 + 12
+			paypal
+			ngân lượng
+			bảo kim
+	
+	
+	
+	
+	
+	
+	
+	
+	
